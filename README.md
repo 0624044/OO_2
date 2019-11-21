@@ -45,3 +45,43 @@ public static void quickSort(int[] array, int begin, int end) {
 ![NKUST](nkust.png "高科大")
 
 [![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+
+###
+``` js
+abstract class CShape
+{
+    protected String color;
+    public void setColor(String str)
+    {
+        color=str;
+    }
+    public abstract void show();
+}
+
+ class CTriangle extends Cshape
+{
+    protected double a,b,c;
+    public CTriangle(double a,doucle b,double c)
+    {
+        this.a=a;
+        this.b=b;
+        this.c=c;
+    }
+}
+
+public void show()
+{
+    System.out.println("color="+color+", ");
+    System.out.println("area="+width*height);
+}
+
+public class app11_1
+{   
+    public static void main(String args[])
+    {
+        CTriangle tri=new CTriangle(3,4,5);
+        tri.setColor("Yellow");
+        tri.show();        
+    }
+}
+```
