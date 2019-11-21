@@ -72,7 +72,7 @@ abstract class CShape
 public void show()
 {
     System.out.println("color="+color+", ");
-    System.out.println("area="+width*height);
+    System.out.println("area="+0.5*a*b);
 }
 
 public class app11_1
@@ -80,7 +80,7 @@ public class app11_1
     public static void main(String args[])
     {
         CTriangle tri=new CTriangle(3,4,5);
-        tri.setColor("Yellow");
+        tri.setColor("Red");
         tri.show();        
     }
 }
